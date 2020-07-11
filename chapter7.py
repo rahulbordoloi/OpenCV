@@ -77,7 +77,7 @@ while True:
     cv2.imshow('Mask', imgResult)
     '''
 
-    imgStack = stackImages(0.6,([img,imgHSV],[mask,imgResult]))
+    imgStack = stackImages(0.6, ([img,imgHSV], [mask,imgResult]))
     cv2.imshow("Stacked Images", imgStack)
 
     cv2.waitKey(1)
